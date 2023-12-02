@@ -4,14 +4,13 @@ import { execSync } from 'child_process';
 
 // const { execSync } = require('child_process');
 const runCommand = (command) => {
-
 	try {
 		execSync(`${command}`, { stdio: 'inherit' });
-	} catch (error) {
-		console.error(`Failed to execute the ${command}`, 0);
-		console.log(error);
+	} catch (e) {
+		console.error(`Failed to execute the ${command}`, e);
 		return false;
 	}
+	return true;
 };
 
 const repoName = process.argv[2];
@@ -30,5 +29,5 @@ const installDependencies = runCommand(installDepsCommand);
 if (!installDependencies) process.exit(-1);
 
 console.log(
-	'Boilerplate Svelte Succesfully installed, follow the following commands to run the application'
+	'Boilerplate Svelte Successfully installed,\n run this project with command "npm run dev"'
 );
