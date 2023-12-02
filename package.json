@@ -1,48 +1,49 @@
 {
-  "name": "boilerplate-sveltes",
-  "version": "0.0.1",
-  "description": "Svelte Starter kit to build project with a library",
-  "author": "endabelyu & febriaj",
-  "bin": {
-    "boilerplate-svelte": "bin/cli.js"
-  },
-  "type": "module",
-  "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "prettier --check . && eslint .",
-    "format": "prettier --write ."
-  },
-  "devDependencies": {
-    "@sveltejs/adapter-auto": "^2.0.0",
-    "@sveltejs/kit": "^1.27.4",
-    "autoprefixer": "^10.4.16",
-    "eslint": "^8.28.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-svelte": "^2.30.0",
-    "postcss": "^8.4.31",
-    "prettier": "^3.0.0",
-    "prettier-plugin-svelte": "^3.0.0",
-    "svelte": "^4.2.7",
-    "tailwindcss": "^3.3.5",
-    "vite": "^4.4.2"
-  },
-  "dependencies": {
-    "apexcharts": "^3.44.0",
-    "moment": "^2.29.4"
-  },
-  "main": "postcss.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Endabelyu/boilerplate-svelte.git"
-  },
-  "keywords": [
-    "boilerplate-svelte"
-  ],
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Endabelyu/boilerplate-svelte/issues"
-  },
-  "homepage": "https://github.com/Endabelyu/boilerplate-svelte#readme"
+	"name": "boilerplate-sveltes",
+	"version": "0.0.1",
+	"description": "Svelte Starter kit to build project with a library",
+	"author": "endabelyu & febriaj",
+	"bin": {
+		"create-boilerplate-svelte": "bin/cli.js"
+	},
+	"type": "module",
+	"scripts": {
+		"start": "boilerplate-sveltes dev",
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.27.4",
+		"autoprefixer": "^10.4.16",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-svelte": "^2.30.0",
+		"postcss": "^8.4.31",
+		"prettier": "^3.0.0",
+		"prettier-plugin-svelte": "^3.0.0",
+		"svelte": "^4.2.7",
+		"tailwindcss": "^3.3.5",
+		"vite": "^4.4.2"
+	},
+	"dependencies": {
+		"apexcharts": "^3.44.0",
+		"moment": "^2.29.4"
+	},
+	"main": "postcss.config.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Endabelyu/boilerplate-svelte.git"
+	},
+	"keywords": [
+		"boilerplate-svelte"
+	],
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Endabelyu/boilerplate-svelte/issues"
+	},
+	"homepage": "https://github.com/Endabelyu/boilerplate-svelte#readme"
 }
