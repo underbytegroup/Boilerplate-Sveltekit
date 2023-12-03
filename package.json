@@ -1,6 +1,6 @@
 {
   "name": "create-boilerplate-svelte",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Svelte Starter kit to build project with a library",
   "author": "endabelyu & febriaj",
   "bin": {
