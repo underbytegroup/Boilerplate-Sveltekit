@@ -110,14 +110,10 @@
 						<a href="https://apexcharts.com/" class="text-2xl">Apexcharts</a>
 					</span>
 					<p>
-						<a
-							href="https://svelte.dev/"
-							rel="noopener noreferrer"
-							class="underline text-orange-500"
-						>
-							Flowbite Svelte</a
-						>. is a free and open-source UI component library based on the core Flowbite components
-						and built with native Svelte components and interactivity handling.
+						<a href="https://svelte.dev/" rel="noopener noreferrer" class="underline text-blue-500">
+							ApexCharts
+						</a> is a modern charting library that helps developers to create beautiful and interactive
+						visualizations for web pages.
 					</p>
 				</div>
 			</li>

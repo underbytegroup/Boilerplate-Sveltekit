@@ -22,6 +22,6 @@ export const initGoogleMaps = async (element, lat, lng, zoom = 10) => {
 			animation: google.maps.Animation.DROP
 		});
 	} catch (error) {
-		return;
+		return error;
 	}
 };

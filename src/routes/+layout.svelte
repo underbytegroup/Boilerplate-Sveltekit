@@ -6,6 +6,8 @@
 <main>
 	<div class="w-8/12 mx-auto">
 		<Navbar />
-		<slot />
+		<div>
+			<slot />
+		</div>
 	</div>
 </main>
