@@ -4,7 +4,7 @@
 		This is a starter template built with SvelteKit, integrating Flowbite UI components, Tailwind
 		CSS for styling, Google Maps for place visualization and ApexCharts for data visualization.
 	</p>
-	<hr />
+	<hr class="border-2" />
 	<div>
 		<h2 class="text-4xl">Features</h2>
 		<p class="mb-2 text-xl">

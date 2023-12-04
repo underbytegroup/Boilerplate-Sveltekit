@@ -7,12 +7,19 @@ export const initGoogleMaps = async (element, lat, lng, zoom = 10) => {
 			version: 'weekly'
 		});
 
+		// map.panTo(newLatLong);
+		// marker.setPosition(newLatLong);
 		await loader.load();
 
 		/* eslint-disable-next-line */
-		new google.maps.Map(document.getElementById(element), {
+		let map = new google.maps.Map(document.getElementById(element), {
 			center: { lat, lng },
 			zoom: zoom
+		});
+		new google.maps.Marker({
+			position: { lat, lng },
+			map: map,
+			animation: google.maps.Animation.DROP
 		});
 	} catch (error) {
 		return;
